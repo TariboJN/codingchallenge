@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contenitore{
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius:10px 10px 10px 10px;
+  margin-top: 20px;
+}
+
+.intestazione{
+  text-align: center;
+}
+
+img{
+  width: 20%;
+}
+
+.intestazione > h1{
+  text-align: center;
+  color: limegreen;
+}
+
+.funzioni{
+  text-align: center;
+  background-color: limegreen;
+  padding: 15px;
+}
+
+.monopattino{
+display: inline-block;
+text-align: left;
+color: white;
+margin-top: 10px;
+}
+
+.monopattino > span{
+  font-size: 20px;
+}
+
+.carica{
+  border-radius: 7px 7px 7px 7px;
+  height:25px;
+}
+.media{
+  width:400px;
+  background-color: orange;
+}
+
+.completa{
+  width:600px;
+  background-color: green;
+}
+
+.bassa{
+  width:200px;
+  background-color: indianred;
+}
